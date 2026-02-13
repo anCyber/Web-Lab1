@@ -1,0 +1,79 @@
+/*↓↓↓ ANECDOTES SECTION ↓↓↓*/  /*↓↓↓ ANECDOTES SECTION ↓↓↓*/  /*↓↓↓ ANECDOTES SECTION ↓↓↓*/
+.anecdotes_lights_section_background {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  background-color: #272727;
+  padding: 60px 0px;
+}
+
+
+.anecdotes_panel_foreground {
+  background-color: rgb(36, 35, 35);
+  box-shadow: 0px 0px 36px rgba(0, 0, 0, 0.75);
+  border-radius: 73px;
+  padding: 50px;
+}
+
+
+.anecdotes_panel_background {
+  display: flex;
+  flex-direction: row;
+  column-gap: 46.5px;
+  padding: 35px 80px;
+
+  background-color: rgb(31, 28, 28);
+  box-shadow: inset 0px 0px 12px rgba(0, 0, 0, 0.42);
+  border-radius: 48px;
+}
+
+
+.single_anecdote_red_circle {
+  background-color: rgb(180, 42, 42);
+  border: 1px solid rgba(201, 201, 201, 0.02);
+  box-shadow: 0px 0px 40px rgb(213, 69, 69), inset 0px 0px 24px rgba(58, 15, 15, 0.45);
+
+  display: flex;
+  align-items: center;
+  text-align: center;
+
+  width: 250px;
+  aspect-ratio: 1 / 1;
+  border-radius: 50%;
+  overflow: hidden;
+}
+.single_anecdote_red_circle:hover {
+  box-shadow: none;
+  border: none;
+  margin: 0px 1px;
+  background-color: transparent;
+}
+.single_anecdote_red_circle:hover .anecdote_image {
+  display: inline-block;
+  opacity: 1;
+}
+.single_anecdote_red_circle:hover .anecdote_text {
+  display: none;
+  opacity: 0;
+}
+
+
+.anecdote_image {
+  width: 100%;
+  border-radius: 50%;
+  object-fit: contain;
+  object-position: center;
+  display: none;
+  opacity: 0;
+  transition: opacity 8s;
+}
+
+.anecdote_text {
+  font-family: Raleway;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 20.35px;
+}
+/*↑↑↑ ANECDOTES SECTION ↑↑↑*/  /*↑↑↑ ANECDOTES SECTION ↑↑↑*/  /*↑↑↑ ANECDOTES SECTION ↑↑↑*/
