@@ -1,28 +1,31 @@
 /*↓↓↓ ANECDOTES SECTION ↓↓↓*/  /*↓↓↓ ANECDOTES SECTION ↓↓↓*/  /*↓↓↓ ANECDOTES SECTION ↓↓↓*/
 .anecdotes_lights_section_background {
-  width: 100%;
   display: flex;
   align-items: center;
   justify-content: center;
 
   background-color: #272727;
   padding: 60px 0px;
+  padding-bottom: 80px;
+  box-shadow: inset 0px -40px 20px -25px rgba(22, 21, 21, 1);
 }
 
 
 .anecdotes_panel_foreground {
+  max-width: 85%;
   background-color: rgb(36, 35, 35);
   box-shadow: 0px 0px 36px rgba(0, 0, 0, 0.75);
   border-radius: 73px;
-  padding: 50px;
+  padding: 3.25%;
 }
 
 
 .anecdotes_panel_background {
   display: flex;
   flex-direction: row;
-  column-gap: 46.5px;
-  padding: 35px 80px;
+  justify-content: space-between;
+  column-gap: 2%;
+  padding: 2% 5%;
 
   background-color: rgb(31, 28, 28);
   box-shadow: inset 0px 0px 12px rgba(0, 0, 0, 0.42);
@@ -37,9 +40,10 @@
 
   display: flex;
   align-items: center;
+  justify-content: center;
   text-align: center;
 
-  width: 250px;
+  flex: 1;
   aspect-ratio: 1 / 1;
   border-radius: 50%;
   overflow: hidden;
@@ -67,13 +71,14 @@
   object-position: center;
   display: none;
   opacity: 0;
-  transition: opacity 8s;
 }
 
 .anecdote_text {
+  max-width: 77%;
+  max-height: 82%;
+  margin: auto auto;
   font-family: Raleway;
-  font-size: 18px;
+  font-size: clamp(11px, 1vw, 20px);
   font-weight: 400;
-  line-height: 20.35px;
 }
 /*↑↑↑ ANECDOTES SECTION ↑↑↑*/  /*↑↑↑ ANECDOTES SECTION ↑↑↑*/  /*↑↑↑ ANECDOTES SECTION ↑↑↑*/
