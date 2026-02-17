@@ -1,10 +1,9 @@
 .lo_content_background {
-  background-image: url("../lo_content_images/track_layout_25.png"), linear-gradient(180deg, rgba(22, 21, 21, 0.75), rgba(120, 94, 94, 0.30));
+  background-image: url("/resources/lo_content_images/track_layout_25.png"), linear-gradient(180deg, rgba(22, 21, 21, 0.75), rgba(120, 94, 94, 0.30));
   background-position: center;
   background-size: contain;
   background-repeat: no-repeat;
   box-shadow: inset 0px -40px 60px -25px rgba(106, 86, 86, 0.20);
-
 }
 
 
