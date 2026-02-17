@@ -19,7 +19,7 @@ tr {
   background: rgba(21, 21, 20, 1.0);
 
   font-family: 'Courier New';
-  font-size: 19px;
+  font-size: clamp(14px, 1.25vw, 19px);
   color: rgba(234, 234, 230, 0.60);
   font-weight: 700;
 }
@@ -35,6 +35,6 @@ tr:nth-child(odd) :is(td,th):nth-child(odd) {
 
 tr:nth-child(2n+3) :is(td,th):nth-child(1),
 tr:nth-child(even) :is(td,th):nth-child(1) {
-  font-size: 24px;
+  font-size: clamp(10px, 2vw, 26px);
   font-weight: 900;
 }
